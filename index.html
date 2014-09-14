@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Parallax plugin demo</title>
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/parallax-plugin.css" type="text/css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<nav>
+		<ul></ul>
+	</nav>
+	<div class="background"></div>
+	<div class="background1"></div>
+	<div class="background2"></div>
+	<div class="wrapperino">
+		
+		<section>
+			<div>
+				<h1>HELLO WROLD!</h1>
+			</div>
+		</section>
+		<section>
+			<div class="wrap">
+				<div class="background"></div>
+			</div>
+		</section>
+		<section>
+			<div class="wrap">
+				<div class="background"></div>		
+			</div>
+		</section>		
+		<section>
+			<div class="wrap">
+				<div class="background"></div>
+			</div>
+		</section>		
+	</div>
+	<footer><p>owwshi &copy;</p></footer>
+	<script src="assets/js/parallax-plugin.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".wrapperino").buildSlider({responsiveHeight:true,controls:false});
+		})
+	</script>
+	
+</body>
+</html>

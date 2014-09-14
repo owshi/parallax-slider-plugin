@@ -1,0 +1,46 @@
+
+.control-box .pagination {
+  position: fixed;
+  z-index: 5;
+  right: 20px;
+  top: 50%;
+  -webkit-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform:translateY(-50%);
+}
+.control-box .pagination>ul>li {
+  display: block;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+.control-box .pagination>ul>li:hover, .pagination>ul>li.active {
+  background-color: #ccc;
+}
+
+.control-box .controls .prev, .control-box .controls .next {
+  display: block;
+  position: fixed;
+  left: 50%;
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  -ms-transform:translateX(-50%);
+  transform:translateX(-50%);
+  cursor: pointer;
+  border-style: solid;
+  z-index: 5;
+}
+.control-box .controls .prev {
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ededed transparent;
+  top: 15px;
+}
+.control-box .controls .next {
+  border-width: 10px 10px 0 10px;
+  border-color: #ededed transparent transparent transparent;
+  bottom: 15px;
+}
