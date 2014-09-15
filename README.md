@@ -54,7 +54,9 @@ $(document).ready(function(){
 - controls (boolean) - Toggle "Previous" and "Next" buttons
 - activeOffset (integer) - Set top margin before active slide (px)
 - infiniteLoop (boolean) - Toggle infinite pages loop (work in progress)
+- 
 ###Example
+
 ```html
 // Setting options
 $(document).ready(function(){
