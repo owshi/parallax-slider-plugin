@@ -32,7 +32,7 @@ Insert the div with sections inside as your pages
 ```
 
 ###JavaScript
-Insert the JavaScript file right before the closing Body element of your HTML document. Add a Script element to initialize the slider. Options are passed in JSON format. You also need jQuery. The options are:
+Insert the JavaScript file right before the closing Body element of your HTML document. Add a Script element to initialize the slider. Options are passed in JSON format. You also need jQuery to be set up
 
 
 ```html
@@ -45,5 +45,15 @@ $(document).ready(function(){
 })
 </script>
 ```
+
+## Options are:
+
+- animationSpeed (integer) - Set speed of the slide animation (min 900 recomended)
+- pager (boolean) - Toggle pagination panel
+- responsiveHeight (boolean) - Toggle adaptation height of the pages to the height of the window
+- controls (boolean) - Toggle "Previous" and "Next" buttons
+- activeOffset (integer) - Set top margin before active slide
+- infiniteLoop (boolean) - Toggle infinite pages loop (work in progress)
+- 
 ## Live Demo
 [View Demo](http://www.ovvshi.pp.ua/parallax/)
