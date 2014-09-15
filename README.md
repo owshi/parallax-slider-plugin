@@ -54,6 +54,8 @@ $(document).ready(function(){
 - controls (boolean) - Toggle "Previous" and "Next" buttons.
 - activeOffset (integer) - Set top margin before active slide (px).
 
+###Example
+
 ```html
 // Setting options
 $(document).ready(function(){
