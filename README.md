@@ -52,8 +52,18 @@ $(document).ready(function(){
 - pager (boolean) - Toggle pagination panel
 - responsiveHeight (boolean) - Toggle adaptation height of the pages to the height of the window
 - controls (boolean) - Toggle "Previous" and "Next" buttons
-- activeOffset (integer) - Set top margin before active slide
+- activeOffset (integer) - Set top margin before active slide (px)
 - infiniteLoop (boolean) - Toggle infinite pages loop (work in progress)
-- 
+### Example
+```html
+// Setting options
+$(document).ready(function(){
+	$("#wrapper").buildSlider({
+	  responsiveHeight: true,
+	  activeOffset: 10,
+	  animationSpeed: 1300,
+	});
+})
+```
 ## Live Demo
 [View Demo](http://www.ovvshi.pp.ua/parallax/)
