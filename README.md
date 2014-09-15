@@ -46,7 +46,7 @@ $(document).ready(function(){
 </script>
 ```
 
-## Options are:
+##Options are:
 
 - animationSpeed (integer) - Set speed of the slide animation (min 900 recomended)
 - pager (boolean) - Toggle pagination panel
@@ -54,7 +54,7 @@ $(document).ready(function(){
 - controls (boolean) - Toggle "Previous" and "Next" buttons
 - activeOffset (integer) - Set top margin before active slide (px)
 - infiniteLoop (boolean) - Toggle infinite pages loop (work in progress)
-### Example
+###Example
 ```html
 // Setting options
 $(document).ready(function(){
