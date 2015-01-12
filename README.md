@@ -67,4 +67,4 @@ $(document).ready(function(){
 })
 ```
 ## Live Demo
-[View Demo](http://www.ovvshi.pp.ua/parallax/)
+[View Demo](http://www.ovvshi.pp.ua/examples/parallax/)
